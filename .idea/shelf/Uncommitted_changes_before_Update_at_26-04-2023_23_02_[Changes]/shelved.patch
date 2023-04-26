@@ -1,0 +1,593 @@
+Index: Desktop2.html
+===================================================================
+diff --git a/Desktop2.html b/Desktop2.html
+deleted file mode 100644
+--- a/Desktop2.html	(revision 70625da1d680f492ce0bac12ff0d173cb29a10c7)
++++ /dev/null	(revision 70625da1d680f492ce0bac12ff0d173cb29a10c7)
+@@ -1,127 +0,0 @@
+-<!DOCTYPE html>
+-<html>
+-  <head>
+-    <meta charset="utf-8" />
+-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+-    <link rel="stylesheet" href="./Desktop2.css" />
+-    <link
+-      rel="stylesheet"
+-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+-    />
+-
+-    <style>
+-      @font-face {
+-        :font-family: "Monograf";
+-        src: url("Monograf Regular.ttf");
+-        font-weight: 400;
+-      }
+-      @font-face {
+-        :font-family: "Monograf Text";
+-        src: url("Monograf Text Regular.ttf");
+-        font-weight: 400;
+-      }
+-    </style>
+-  </head>
+-  <body>
+-    <div class="desktop-2">
+-      <div class="instructions-">INSTRUCTIONS_</div>
+-      <div class="rectangle-group">
+-        <div class="group-child3"></div>
+-        <div class="group-child4"></div>
+-      </div>
+-      <div class="select-a-language">SELECT A LANGUAGE FOR QUESTIONS</div>
+-      <div class="time-45">Time : 45 min</div>
+-      <div class="group-parent2">
+-        <div class="rectangle-parent1">
+-          <div class="group-child5"></div>
+-          <div class="c">C++</div>
+-        </div>
+-        <div class="rectangle-parent2">
+-          <div class="group-child6"></div>
+-          <div class="group-child7"></div>
+-          <div class="java">Java</div>
+-          <div class="python">Python</div>
+-        </div>
+-      </div>
+-      <div class="desktop-2-child"></div>
+-      <div class="desktop-2-item"></div>
+-      <div class="power-ups">Power Ups</div>
+-      <div class="desktop-2-inner"></div>
+-      <div class="participant-cant-return-container">
+-        <span>Participant </span>
+-        <span class="cant-return-to">can’t return to previous question</span>
+-        <span> once skipped/answered. So, take decisions accordingly.</span>
+-      </div>
+-      <div class="line-div"></div>
+-      <div class="if-a-participant-container">
+-        <span>If a participant is </span>
+-        <span class="cant-return-to"
+-          >caught using the internet or any other prohibited materials</span
+-        >
+-        <span> , they will be </span>
+-        <span class="cant-return-to">disqualified</span>
+-        <span> from the event.</span>
+-      </div>
+-      <div class="desktop-2-child1"></div>
+-      <div class="total-questions-35-parent">
+-        <div class="total-questions">Total Questions : 35</div>
+-        <div class="group-child8"></div>
+-        <div class="easy-20-parent">
+-          <div class="easy-20-container">
+-            <span>Easy</span>
+-            <span class="min"> : 20 </span>
+-          </div>
+-          <img class="line-icon" alt="" src="./public/line-6.svg" />
+-
+-          <div class="group-child9"></div>
+-          <div class="medium-10-container">
+-            <span>Medium</span>
+-            <span class="min"> : 10 </span>
+-          </div>
+-          <div class="pts1">10 pts</div>
+-          <div class="pts2">15 pts</div>
+-          <div class="pts3">05 pts</div>
+-          <div class="group-child10"></div>
+-          <div class="hard-5-container">
+-            <span>Hard</span>
+-            <span class="min"> : 5 </span>
+-          </div>
+-          <div class="group-child11"></div>
+-        </div>
+-      </div>
+-      <div class="pts4">10 pts</div>
+-      <div class="pts5">15 pts</div>
+-      <div class="pts6">05 pts</div>
+-      <div class="easy-10-min-parent">
+-        <div class="easy-10-container">
+-          <span>Easy</span>
+-          <span class="min"> : 10 min </span>
+-        </div>
+-        <img class="group-child12" alt="" src="./public/line-61.svg" />
+-
+-        <div class="group-child13"></div>
+-        <div class="medium-20-container">
+-          <span>Medium</span>
+-          <span class="min"> : 20 min </span>
+-        </div>
+-        <div class="group-child14"></div>
+-        <div class="hard-35-container">
+-          <span>Hard</span>
+-          <span class="min"> : 35 min </span>
+-        </div>
+-        <div class="group-child15"></div>
+-      </div>
+-      <div class="solve-questions-in">Solve Questions in Limited Time</div>
+-      <img class="desktop-2-child2" alt="" src="./public/line-62.svg" />
+-
+-      <div class="desktop-2-child3"></div>
+-      <div class="hint-2-container">
+-        <span>Hint :</span>
+-        <span class="cant-return-to"> -2 min</span>
+-        <span> from Remaining Time</span>
+-      </div>
+-      <div class="desktop-2-child4"></div>
+-      <img class="desktop-2-child5" alt="" src="./public/group-6.svg" />
+-    </div>
+-  </body>
+-</html>
+Index: Desktop2.css
+===================================================================
+diff --git a/Desktop2.css b/Desktop2.css
+deleted file mode 100644
+--- a/Desktop2.css	(revision 70625da1d680f492ce0bac12ff0d173cb29a10c7)
++++ /dev/null	(revision 70625da1d680f492ce0bac12ff0d173cb29a10c7)
+@@ -1,452 +0,0 @@
+-.instructions- {
+-  position: absolute;
+-  top: 40px;
+-  left: 55px;
+-  font-size: 50px;
+-  font-family: Monograf;
+-}
+-.group-child3 {
+-  position: absolute;
+-  top: 0px;
+-  left: 5.05px;
+-  border-radius: 10px;
+-  border: 1px solid #fff;
+-  box-sizing: border-box;
+-  width: 1415.98px;
+-  height: 1478.44px;
+-}
+-.group-child4 {
+-  position: absolute;
+-  top: 5.8px;
+-  left: 0px;
+-  border-radius: 10px;
+-  border: 1px solid #fff;
+-  box-sizing: border-box;
+-  width: 1427.05px;
+-  height: 1504.2px;
+-}
+-.rectangle-group {
+-  position: absolute;
+-  top: 119px;
+-  left: -21.05px;
+-  width: 1427.05px;
+-  height: 1510px;
+-}
+-.select-a-language {
+-  position: absolute;
+-  top: 198px;
+-  left: 107px;
+-  display: inline-block;
+-  width: 513px;
+-  height: 54px;
+-}
+-.time-45 {
+-  position: absolute;
+-  top: 414px;
+-  left: 296px;
+-  display: inline-block;
+-  width: 513px;
+-  height: 54px;
+-}
+-.group-child5 {
+-  position: absolute;
+-  top: 0px;
+-  left: 0px;
+-  border-radius: 15px;
+-  border: 3px solid #fff;
+-  box-sizing: border-box;
+-  width: 210px;
+-  height: 79px;
+-}
+-.c {
+-  position: absolute;
+-  top: 16px;
+-  left: 64px;
+-  display: inline-block;
+-  width: 81px;
+-  height: 47px;
+-}
+-.rectangle-parent1 {
+-  position: absolute;
+-  top: 0px;
+-  left: 0px;
+-  width: 210px;
+-  height: 79px;
+-}
+-.group-child6 {
+-  position: absolute;
+-  top: 0px;
+-  left: 0px;
+-  border-radius: 15px;
+-  border: 3px solid #ff0000;
+-  box-sizing: border-box;
+-  width: 210px;
+-  height: 79px;
+-}
+-.group-child7 {
+-  position: absolute;
+-  top: 0px;
+-  left: 347px;
+-  border-radius: 15px;
+-  border: 3px solid #fff;
+-  box-sizing: border-box;
+-  width: 210px;
+-  height: 79px;
+-}
+-.java {
+-  position: absolute;
+-  top: 16px;
+-  left: 64px;
+-  display: inline-block;
+-  width: 112px;
+-  height: 47px;
+-}
+-.python {
+-  position: absolute;
+-  top: 16px;
+-  left: 396px;
+-  color: #fff;
+-  display: inline-block;
+-  width: 161px;
+-  height: 47px;
+-}
+-.rectangle-parent2 {
+-  position: absolute;
+-  top: 0px;
+-  left: 351px;
+-  width: 557px;
+-  height: 79px;
+-  color: #ff0000;
+-}
+-.group-parent2 {
+-  position: absolute;
+-  top: 278px;
+-  left: 191px;
+-  width: 908px;
+-  height: 79px;
+-  font-size: 40px;
+-}
+-.desktop-2-child {
+-  position: absolute;
+-  top: 243px;
+-  left: 136px;
+-  border-right: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 2px;
+-  height: 1114px;
+-}
+-.desktop-2-item {
+-  position: absolute;
+-  top: 433.99px;
+-  left: 133.99px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 150.01px;
+-  height: 2px;
+-}
+-.power-ups {
+-  position: absolute;
+-  top: 788px;
+-  left: 296.01px;
+-  display: inline-block;
+-  width: 513px;
+-  height: 53px;
+-}
+-.desktop-2-inner {
+-  position: absolute;
+-  top: 807.99px;
+-  left: 135px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 150.01px;
+-  height: 2px;
+-}
+-.cant-return-to {
+-  color: #ff0000;
+-}
+-.participant-cant-return-container {
+-  position: absolute;
+-  top: 1225px;
+-  left: 296px;
+-  display: inline-block;
+-  width: 987px;
+-  height: 53px;
+-}
+-.line-div {
+-  position: absolute;
+-  top: 1244.99px;
+-  left: 135px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 150.01px;
+-  height: 2px;
+-}
+-.if-a-participant-container {
+-  position: absolute;
+-  top: 1335px;
+-  left: 295px;
+-  display: inline-block;
+-  width: 987px;
+-  height: 53px;
+-}
+-.desktop-2-child1 {
+-  position: absolute;
+-  top: 1354.99px;
+-  left: 134px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 150.01px;
+-  height: 2px;
+-}
+-.total-questions {
+-  position: absolute;
+-  top: 0px;
+-  left: 161.01px;
+-  display: inline-block;
+-  width: 513px;
+-  height: 54px;
+-}
+-.group-child8 {
+-  position: absolute;
+-  top: 19.99px;
+-  left: -1px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 150.01px;
+-  height: 2px;
+-}
+-.easy-20-container {
+-  position: absolute;
+-  top: 26.5px;
+-  left: 79px;
+-  display: inline-block;
+-  width: 216px;
+-  height: 54px;
+-  color: #00ff19;
+-}
+-.line-icon {
+-  position: absolute;
+-  top: 0px;
+-  left: -0.5px;
+-  width: 2px;
+-  height: 162px;
+-}
+-.group-child9 {
+-  position: absolute;
+-  top: 42.5px;
+-  left: -1px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 72px;
+-  height: 2px;
+-}
+-.medium-10-container {
+-  position: absolute;
+-  top: 86.5px;
+-  left: 77px;
+-  display: inline-block;
+-  width: 195px;
+-  height: 54px;
+-  color: #faff00;
+-}
+-.pts1 {
+-  position: absolute;
+-  top: 86.5px;
+-  left: 309px;
+-}
+-.pts2 {
+-  position: absolute;
+-  top: 141.5px;
+-  left: 308px;
+-}
+-.pts3 {
+-  position: absolute;
+-  top: 26.5px;
+-  left: 308px;
+-}
+-.group-child10 {
+-  position: absolute;
+-  top: 102.5px;
+-  left: -1px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 69px;
+-  height: 2px;
+-}
+-.hard-5-container {
+-  position: absolute;
+-  top: 145.5px;
+-  left: 77px;
+-  display: inline-block;
+-  width: 207px;
+-  height: 54px;
+-  color: #ff0000;
+-}
+-.group-child11 {
+-  position: absolute;
+-  top: 161.5px;
+-  left: -1px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 69px;
+-  height: 2px;
+-}
+-.easy-20-parent {
+-  position: absolute;
+-  top: 53.5px;
+-  left: 174px;
+-  width: 395px;
+-  height: 199.5px;
+-}
+-.total-questions-35-parent {
+-  position: absolute;
+-  top: 502px;
+-  left: 137px;
+-  width: 674.01px;
+-  height: 253px;
+-}
+-.pts4 {
+-  position: absolute;
+-  top: 977px;
+-  left: 806px;
+-}
+-.pts5 {
+-  position: absolute;
+-  top: 1032px;
+-  left: 805px;
+-}
+-.pts6 {
+-  position: absolute;
+-  top: 917px;
+-  left: 805px;
+-}
+-.min {
+-  color: #fff;
+-}
+-.easy-10-container {
+-  position: absolute;
+-  top: 26px;
+-  left: 79px;
+-  display: inline-block;
+-  width: 191px;
+-  height: 54px;
+-}
+-.group-child12 {
+-  position: absolute;
+-  top: 0px;
+-  left: -0.5px;
+-  width: 2px;
+-  height: 159.5px;
+-}
+-.group-child13 {
+-  position: absolute;
+-  top: 42px;
+-  left: 0px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 69px;
+-  height: 2px;
+-}
+-.medium-20-container {
+-  position: absolute;
+-  top: 86px;
+-  left: 77px;
+-  display: inline-block;
+-  width: 229px;
+-  height: 54px;
+-  color: #faff00;
+-}
+-.group-child14 {
+-  position: absolute;
+-  top: 102px;
+-  left: -1px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 69px;
+-  height: 2px;
+-}
+-.hard-35-container {
+-  position: absolute;
+-  top: 142px;
+-  left: 77px;
+-  display: inline-block;
+-  width: 246px;
+-  height: 54px;
+-  color: #ff0000;
+-}
+-.group-child15 {
+-  position: absolute;
+-  top: 159px;
+-  left: -1px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 69px;
+-  height: 2px;
+-}
+-.easy-10-min-parent {
+-  position: absolute;
+-  top: 890px;
+-  left: 433px;
+-  width: 323px;
+-  height: 196px;
+-  color: #00ff19;
+-}
+-.solve-questions-in {
+-  position: absolute;
+-  top: 835.96px;
+-  left: 392px;
+-  display: inline-block;
+-  width: 513px;
+-  height: 53.8px;
+-}
+-.desktop-2-child2 {
+-  position: absolute;
+-  top: 829px;
+-  left: 311.56px;
+-  width: 2px;
+-  height: 310px;
+-}
+-.desktop-2-child3 {
+-  position: absolute;
+-  top: 851.9px;
+-  left: 312px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 72px;
+-  height: 2px;
+-}
+-.hint-2-container {
+-  position: absolute;
+-  top: 1122px;
+-  left: 392px;
+-  display: inline-block;
+-  width: 513px;
+-  height: 53.8px;
+-}
+-.desktop-2-child4 {
+-  position: absolute;
+-  top: 1137.94px;
+-  left: 312px;
+-  border-top: 2px solid #fff;
+-  box-sizing: border-box;
+-  width: 69px;
+-  height: 2px;
+-}
+-.desktop-2-child5 {
+-  position: absolute;
+-  top: 1457px;
+-  left: 1248px;
+-  width: 67px;
+-  height: 67px;
+-}
+-.desktop-2 {
+-  position: relative;
+-  background-color: #000;
+-  width: 100%;
+-  height: 1580px;
+-  overflow: hidden;
+-  text-align: left;
+-  font-size: 30px;
+-  color: #fff;
+-  font-family: "Monograf Text";
+-}
